@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tabs"
+            android:title="Tabs"
+            android:icon="@android:drawable/ic_dialog_info"/>
+        <item
+            android:id="@+id/cardAndRecycle"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Card and Recycle"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/floatingAction"
+            android:title="Floating Animation"
+            android:icon="@android:drawable/ic_dialog_info"/>
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_lock_idle_low_battery"
+            android:title="About"/>
+        <item
+            android:id="@+id/treeViews"
+            android:title="TreeView"
+            android:icon="@android:drawable/ic_menu_compass"/>
+    </group>
+</menu>
